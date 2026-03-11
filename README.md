@@ -10,7 +10,7 @@ This project explores several approaches to book recommendation using two datase
 - **Biased Matrix Factorization**  
   A latent-factor model for explicit ratings that captures hidden user and item preferences.
 
-- **Hybrid Item-to-Item KNN**  
+- **Hybrid Item-to-Item Recommender**  
   A combination of collaborative similarity from ratings and content similarity from book metadata.
 
 - **TF-IDF Content-Based Recommender**  
@@ -23,3 +23,13 @@ This project explores several approaches to book recommendation using two datase
 
 - `goodreads_recommender.ipynb`  
   Content-based recommender built on richer Goodreads text metadata.
+
+## App
+
+A simple Streamlit web app is included in the `webapp` folder.
+
+To run it locally:
+
+```bash
+cd webapp
+streamlit run app.py
